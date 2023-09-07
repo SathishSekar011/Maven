@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.041" tests="3" skipped="0" failures="1" errors="0">
+<testcase classname="Login Functionalities" name="Checking with invalid datas with Chrome - Example #1.1" time="8.155">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.stepdefinitions.StepDefinitions.user_enters_and(StepDefinitions.java:78)
+	at ?.User Enters "sathish" and "<Password>"(file:///C:/Users/Lenovo/eclipse-workspace/LanuageDetails/MavenProject/FeatureFiles/Cucuber.feature:33)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Background Execution..................................................passed
+Given Facebook URL Launched "chrome"........................................passed
+When User Enters "sathish" and "<Password>".................................failed
+Then TakeScreenshot.........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionalities" name="Checking with invalid datas with Chrome - Example #1.2" time="2.855">
+<system-out><![CDATA[
+Given Background Execution..................................................passed
+Given Facebook URL Launched "chrome"........................................passed
+When User Enters "sarath" and "<Password>"..................................passed
+Then TakeScreenshot.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionalities" name="Checking with invalid datas with Chrome - Example #1.3" time="2.708">
+<system-out><![CDATA[
+Given Background Execution..................................................passed
+Given Facebook URL Launched "chrome"........................................passed
+When User Enters "xavier" and "<Password>"..................................passed
+Then TakeScreenshot.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
